@@ -11,8 +11,8 @@ from aiogram.types import (
 from aiogram.filters import Command
 from aiogram.enums import ParseMode
 
-BOT_TOKEN = "8325200301:AAGpNSMAZy3OMxyx5kOUyaCVNLRdttKdsTU"
-ADMIN_ID = 959482425
+BOT_TOKEN = "1234567890"
+ADMIN_ID = 234567890
 
 bot = None
 dp = Dispatcher()
@@ -547,4 +547,5 @@ async def main():
 
 
 if __name__ == "__main__":
+
     asyncio.run(main())
